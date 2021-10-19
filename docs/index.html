@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Docs</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+  </head>
+  <body>
+    <div id="docute"></div>
+    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script>
+      new Docute({
+        target: '#docute',
+        title: 'KOGE',
+        detectSystemDarkTheme: true,
+        darkThemeToggler: true,
+        cssVariables: {
+            accentColor: '#d32931',
+        },
+
+        nav: [
+            {
+                title: 'GitHub',
+                link: 'https://github.com/2BAB/KOGE/'
+            }
+        ],
+
+        sidebar: [
+            {
+                title: 'Basis',
+                children: [
+                    {
+                    title: 'Introduction',
+                    link: '/basis/introduction'
+                    },
+                    {
+                    title: 'Getting Started',
+                    link: '/basis/getting-started'
+                    }
+                ]
+            },
+            {
+                title: 'Customization',
+                children: [
+                    {
+                    title: 'Task Creation',
+                    link: '/customization/task-creation'
+                    },
+                    {
+                    title: 'Shared Dependencies',
+                    link: '/customization/shared-dependencies'
+                    }
+                ]
+            }
+        ],
+
+        overrides: {
+            '/': {
+                language: 'English'
+            },
+            '/zh-cn/': {
+                language: '简体中文',
+                sidebar: [
+                    {
+                        title: '基础',
+                        children: [
+                            {
+                            title: '简介',
+                            link: '/zh-cn/basis/introduction'
+                            },
+                            {
+                            title: '快速开始',
+                            link: '/zh-cn/basis/getting-started'
+                            }
+                        ]
+                    },
+                    {
+                        title: '自定义',
+                        children: [
+                            {
+                            title: '任务创建',
+                            link: '/zh-cn/customization/task-creation'
+                            },
+                            {
+                            title: '依赖共享',
+                            link: '/zh-cn/customization/shared-dependencies'
+                            }
+                        ]
+                    }
+                ],
+            }
+        }
+      })
+    </script>
+  </body>
+</html>

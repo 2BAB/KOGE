@@ -1,4 +1,4 @@
-# KOGE
+# KOGE Introduction
 
 KOGE stands for Kotlin-oriented Gradle Essentials, a concise self-study handbook for Gradle. I don't intent to write a book that is only elaborated by me, nor is a collection of "Awesome Gradle" projects. It lists a dozen of the most confusing points of doubt for newcomers, points out the learning sequence, and links to appropriate reference materials - from questions, source code, and samples already available on the Internet.
 

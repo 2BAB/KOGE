@@ -2,7 +2,7 @@
 
 KOGE 是 Kotlin-oriented Gradle Essentials 的缩写，顾名思义是面向 Kotlin 的 Gradle 基础手册。我既不想做成仅由我详尽阐释的书，也不是“Awesome Gradle”的项目收藏夹。它列出新手最困惑的十几个疑惑点，指出学习的先后顺序，并链接到合适的参考材料——从一些互联网上已有的问题、源码、示例中，汲取高质量的能紧跟最新大版本的内容。**它是一个方向，一份大纲，一本简练的自学手册。**
 
-手册选择了 Kotlin 为 DSL 脚本和插件开发的语言，并不是因为 Kotlin 比 Groovy 拥有更好的性能抑或 Gradle 只维护 Kotlin DSL。尽管当前 Gradle Groovy DSL 性能更加优异，且历史资料丰富；但 Gradle Kotlin DSL 的补全性能更好，Kotlin 的社区和生态更活跃，以及作为 Android 开发者我更支持一门语言带来的统一体验（App 主体开发和构建工具开发）。手册内的链接和用例以 Android 开发的环境为主，但力求对其他平台的使用者也能通俗易懂。
+手册选择了 Kotlin 作为介绍 DSL 脚本和插件开发的语言。尽管当前 Gradle Groovy DSL 性能更加优异，且历史资料丰富；但 Gradle Kotlin DSL 的补全性能更好，Kotlin 的社区和生态更活跃，以及作为 Android 开发者我更支持一门语言带来的统一体验（App 主体开发和构建工具开发）。手册内的链接和用例以 Android 开发的环境为主，但力求对其他平台的使用者也能通俗易懂。
 
 另外，“基础”的定义范围十分明确，它覆盖了下方第 1 点和小部分第 2 点中的内容（来自于我之前做过的一个[问卷调查](https://mp.weixin.qq.com/s/TmHYKMU1KYOTdN_ytZNWZA)）。重点解决如何理解脚本、编写脚本（含简单的自定义任务），和常见的一些 Gradle 工程化实践。
 

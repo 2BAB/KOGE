@@ -6,7 +6,7 @@ Read it in [English](https://koge.2bab.me/#/) or [简体中文](https://koge.2ba
 
 
 - Basis
-  - [Quick start](/): 
+  - [Getting started](/): 
     - Gradle
     - Script
     - Plugin
@@ -19,8 +19,15 @@ Read it in [English](https://koge.2bab.me/#/) or [简体中文](https://koge.2ba
     - @DslMarker
     - Common Kotlin DSL (Common Groovy DSL)
     - Gradle Kotlin DSL
+  - [DSL Configuration](/):
+    - Java Plugin
+    - Kotlin Plugin
+    - Android Gradle Plugin
+    - Dependencies
+    - 3rd Party Plugins
   - [Regular Tasks](/):
     - Common Tasks
+    - Java Tasks
     - Android Tasks
   - [Lifecycle](/):
     - Initialization
@@ -28,19 +35,15 @@ Read it in [English](https://koge.2bab.me/#/) or [简体中文](https://koge.2ba
     - Execution
     - Java Plugin Lifecycle
     - Android Gradle Plugin Lifecycle
-  - [DSL Configuration](/):
-    - Java Plugin
-    - Kotlin Plugin
-    - Android Gradle Plugin
-    - Dependencies
-    - 3rd Party Plugins
+
   
 - Customization
-  - [More scripts](/):
+  - [Scripts In Advance](/):
     - init.gradle(.kts)
     - Script Plugin
     - buildSrc
-  - [Properties](/):
+    - Manage Dependency version
+  - [Arguments](/):
     - Gradle Flags
     - CLI Aruguments
     - gradle.properties
@@ -50,3 +53,6 @@ Read it in [English](https://koge.2bab.me/#/) or [简体中文](https://koge.2ba
     - Authoring Task
     - Get APK / AAR / AAB
     - Modify Manifest
+  - [Performance Optimization](/):
+    - Upgrade Gradle/AGP/Kotlin frequently
+    - Tricks that work and may not work

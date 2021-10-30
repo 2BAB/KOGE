@@ -49,7 +49,7 @@
 我们再看一些利用 buildSrc 提高工程化水平的实践：
 
 - [Better Dependency Management Using buildSrc + Kotlin DSL](https://proandroiddev.com/better-dependencies-management-using-buildsrc-kotlin-dsl-eda31cdb81bf)：最常见的一个用法——共享依赖；
-[Gradle Goodness: Shared Configuration With Conventions Plugin](https://blog.mrhaki.com/2021/02/gradle-goodness-shared-configuration.html)：另一个相当实用技能——共享部分插件配置；
+- [Gradle Goodness: Shared Configuration With Conventions Plugin](https://blog.mrhaki.com/2021/02/gradle-goodness-shared-configuration.html)：另一个相当实用技能——共享部分插件配置；
 
 最后，聊聊我们在开头提到的 [included build](https://docs.gradle.org/current/userguide/composite_builds.html#composite_build_intro)。从实际情况来看，它主要为了同时满足如下两个需求：
 

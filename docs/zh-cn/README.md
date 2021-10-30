@@ -1,10 +1,16 @@
 # KOGE 简介
 
-KOGE 是 Kotlin-oriented Gradle Essentials 的缩写，顾名思义是面向 Kotlin 的 Gradle 基础手册。我既不想做成仅由我详尽阐释的书，也不是“Awesome Gradle”的项目收藏夹。它列出新手最困惑的十几个疑惑点，指出学习的先后顺序，并链接到合适的参考材料——从一些互联网上已有的问题、源码、示例中，汲取高质量的能紧跟最新大版本的内容。**它是一个方向，一份大纲，一本简练的自学手册。**
+<ImageZoom 
+  src="https://raw.githubusercontent.com/2BAB/KOGE/main/koge-book-cover.png" 
+  :border="false" 
+  width="560"
+/>
 
-手册选择了 Kotlin 作为介绍 DSL 脚本和插件开发的语言。尽管当前 Gradle Groovy DSL 性能更加优异，且历史资料丰富；但 Gradle Kotlin DSL 的补全性能更好，Kotlin 的社区和生态更活跃，以及作为 Android 开发者我更支持一门语言带来的统一体验（App 主体开发和构建工具开发）。手册内的链接和用例以 Android 开发的环境为主，但力求对其他平台的使用者也能通俗易懂。
+KOGE 是 Kotlin-oriented Gradle Essentials 的缩写，顾名思义是面向 Kotlin 的 Gradle 基础手册。它也不是“Awesome Gradle”的项目收藏夹，也并非仅由我阐释的书。它按照合理的先后顺序，列出新手最困惑的概念，再从一些互联网上已有的问题、源码、示例项目中去学习。**它是一份大纲，一本简练的自学手册。**
 
-另外，“基础”的定义范围十分明确，它覆盖了下方第 1 点和小部分第 2 点中的内容（来自于我之前做过的一个[问卷调查](https://mp.weixin.qq.com/s/TmHYKMU1KYOTdN_ytZNWZA)）。重点解决如何理解脚本、编写脚本（含简单的自定义任务），和常见的一些 Gradle 工程化实践。
+手册选择了 Kotlin 作为介绍 DSL 脚本和插件开发的语言。Gradle Kotlin DSL 在 IDE 中的补全支持优秀，Kotlin 的社区和生态更活跃，以及作为 Android 开发者的我十分享受一门语言带来的统一体验（App 主体开发和构建工具开发）。**手册内的链接和用例以 Android 构建为主**，但力求对其他平台的 Gradle 使用者也能通俗易懂。
+
+另外，“基础”的定义范围十分明确，它覆盖了下方第 1 点和部分第 2 点中的内容（源自我之前的一个[问卷调查](https://mp.weixin.qq.com/s/TmHYKMU1KYOTdN_ytZNWZA)）。重点解决**理解脚本、编写脚本（含简单的自定义任务），和常见的一些 Gradle 工程化实践。**
 
 > 1. “仅基础使用”（初级）：我能读懂、修改 build.gradle(.kts)，对 Gradle、AGP 有基础的认知，例如了解 Gradle 的任务机制，但碰到非 App 源码的编译错误有点不知所措；
 > 2. “实现高效自动化、工程化”（中级）：我对工程化、自动化有一定的认知、追求，可以通过构建脚本拆分、自定义 Task 来实现日常事务的优化，例如使用 buildSrc 模块抽取并统一管理依赖、使用自定义 Task 组合 CICD 的流程，运用一些最佳实践来提高编译构建效率；
@@ -14,10 +20,8 @@ KOGE 是 Kotlin-oriented Gradle Essentials 的缩写，顾名思义是面向 Kot
    
 
 
-手册持续编写中 🚧...暂无预览版本。
+手册持续编写中 🚧...暂无可完整阅读的版本。
 
-想参与手册编辑，请访问 [KOGE 的 Github Repo](https://github.com/2BAB/KOGE)。
-
-其他相关问题，欢迎[联系我](https://2bab.me/about/)。
+想参与手册编辑，请访问 KOGE 的 [Github Repo](https://github.com/2BAB/KOGE)。其他相关问题，欢迎[联系我](https://2bab.me/about/)。
 
 ![](https://2bab-images.lastmayday.com/blog/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg?imageslim)

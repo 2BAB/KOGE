@@ -44,11 +44,12 @@ Gradle 的构建环境中有着各种各样的 Options / Arguments / Properties 
 
 其实在上个部分的最后一篇文章中，我们已经看到了如何使用 `gradle.properties` 进行依赖版本的管理。这里我们列出一些更通用的自定义的参数输入和读取，重点理解通过 `extra` 和 `by project` 代理的两种读取方式。：
 
-1. [ext-in-buildscript-can-not-be-recognised-by-gradle-kotlin-dsl](https://stackoverflow.com/questions/45753733/ext-in-buildscript-can-not-be-recognised-by-gradle-kotlin-dsl)：Gradle Groovy DSL 中我们熟悉的 `ext` 去哪里了？Gradle Kotlin DSL 中的 `extra` 又是什么？
-2. [ExtraPropertiesExtension](https://docs.gradle.org/4.7/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html)
-3. [Reference property in Gradle Properties](https://stackoverflow.com/questions/56363135/reference-property-in-gradle-properties)
-4. [kotlin-dsl-samples/samples/extra-properties](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/extra-properties/build.gradle.kts)
-5. [kotlin-dsl-samples/samples/project-properties/](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/project-properties/build.gradle.kts)
+1. [Declaring variables](https://docs.gradle.org/current/userguide/writing_build_scripts.html#sec:declaring_variables)
+2. [ext-in-buildscript-can-not-be-recognised-by-gradle-kotlin-dsl](https://stackoverflow.com/questions/45753733/ext-in-buildscript-can-not-be-recognised-by-gradle-kotlin-dsl)：Gradle Groovy DSL 中我们熟悉的 `ext` 去哪里了？Gradle Kotlin DSL 中的 `extra` 又是什么？
+3. [ExtraPropertiesExtension](https://docs.gradle.org/4.7/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html)
+4. [Reference property in Gradle Properties](https://stackoverflow.com/questions/56363135/reference-property-in-gradle-properties)
+5. [kotlin-dsl-samples/samples/extra-properties](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/extra-properties/build.gradle.kts)
+6. [kotlin-dsl-samples/samples/project-properties/](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/project-properties/build.gradle.kts)
 
 另外，`buildscript{}` 配合 `ext` 或者 `extra` 时还有一个常见问题：
 

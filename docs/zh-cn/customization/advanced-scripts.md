@@ -1,5 +1,12 @@
 # 脚本进阶
 
+## 更多脚本 API
+
+编写脚本时，除了配置 Plugin 的 Exetension，有时候还需要与 Gradle 脚本自身的一些 API 打交道，例如 `Project` 对象 `Settings` 对象以及各类挂载在他们身上的快捷接口：
+
+1. [The Project API](https://docs.gradle.org/current/userguide/writing_build_scripts.html#sec:project_api)
+2. [The script API](https://docs.gradle.org/current/userguide/writing_build_scripts.html#sec:the_script_api)
+
 ## Script Plugin
 
 除了平常项目维护的 `build.gradle(.kts)` `settings.gradle(.kts)` “脚本”，引用的“插件”外，其实还有一种“脚本插件”（Script Plugin）。严格来说，它们就是“脚本”，只不过被定义在了上述的脚本之外，不跟随某个特定的模块走，像插件一样可以被模块内的脚本所引用。Gradle 官方把它归类到了 Plugin 的类目下，可以从这两篇文章中找到相关的定义和使用描述。

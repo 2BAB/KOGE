@@ -47,7 +47,8 @@ Gradle Kotlin DSL 就是在泛用 KTS 脚本的基础上，进一步约定了脚
 5. [Delegated properties](https://kotlinlang.org/docs/delegated-properties.html)
 
 
-## 小结
+
+## 小结
 
 了解通用性的 Kotlin Script 和 DSL 其实可以给我们的工作带来很多便利，一门语言解决多个工作需求；Gradle Kotlin DSL 也是目前 Android 官方较为推荐的写法（相较于 Groovy）。
 

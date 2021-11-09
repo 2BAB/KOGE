@@ -1,12 +1,6 @@
 # DSL 配置
 
-## Base Plugin
-
-- [The Base Plugin](https://docs.gradle.org/current/userguide/base_plugin.html)
-
-## Java Plugin
-
-- [The Java Plugin](https://docs.gradle.org/current/userguide/java_plugin.html)
+本节我们将对常见的 DSL 配置进行拆解梳理。
 
 ## Android Gradle Plugin
 

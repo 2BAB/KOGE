@@ -36,6 +36,7 @@
 1. [Improving the Performance of Gradle Builds](https://docs.gradle.org/current/userguide/performance.html)：介绍了深入分析的方法、工具，但对于初学者来说可能投入和收益的比例并不可观。
 2. [Gradle Enterprise Gradle Plugin User Manual](https://docs.gradle.com/enterprise/gradle-plugin/?_ga=2.127298381.1900135053.1636116790-1881714751.1634284859#getting_set_up)
 3. [DIY Gradle build optimization](https://alexsaveau.dev/blog/gradle/performance/diy-gradle-build-optimization)：用一些实际案例介绍如何针对 `--scan` 等工具的结果去做优化。
+4. [Hello, my Gradle builds are slow!](https://medium.com/@liutikas/hello-my-gradle-builds-are-slow-483427e6eb4)：一个 AndroidX 团队使用 `--scan` 分析依赖下载耗时的简单案例（虽然是 Gradle Enterprise 商业版的案例，但这篇文章用到的功能都是免费版就有的）。
 
 
 ## Android 构建优化策略

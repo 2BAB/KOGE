@@ -1,6 +1,6 @@
 # DSL 配置
 
-本节我们将对常见的 DSL 配置进行拆解梳理。
+本节我们将对常见的 DSL 配置进行梳理。
 
 ## The Java/Kotlin Plugin
 

@@ -27,7 +27,11 @@ KOGE 是 Kotlin-oriented Gradle Essentials 的缩写，顾名思义是面向 Kot
 
 **不要因为语言是英文而跳过所有的链接内容，具体的知识点阐述、代码实战其实都在这些链接的文章、文档中。**
 
-手册持续编写中 🚧...暂无可完整阅读的版本。
+
+
+## 关于
+
+手册持续迭代中 🚧...目前版本 **v0.1**，已完成中文部分的第一版草稿。
 
 想参与手册编辑，请访问 KOGE 的 [Github Repo](https://github.com/2BAB/KOGE)。其他相关问题，欢迎[联系我](https://2bab.me/about)。
 

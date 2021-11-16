@@ -6,15 +6,15 @@
 
 刚开始入门的 Android 开发者其实建议先看看 Java Plugin 的 DSL 配置，需要配置的内容相对较少：
 
-- [The Java Plugin](https://docs.gradle.org/current/userguide/java_plugin.html#tab:configurations)
-- [Gradle | Kotlin](https://kotlinlang.org/docs/gradle.html)
+- ["The Java Plugin"@Gradle](https://docs.gradle.org/current/userguide/java_plugin.html#tab:configurations)
+- ["Gradle | Kotlin"@Kotlin](https://kotlinlang.org/docs/gradle.html)
 
 快速浏览一遍后你会发现：就基础的配置来说 Android 和 Java/Kotlin 基本都是一致的，比如 source sets / dependency configuration。
 
 之后再结合一些案例来理解一份配置文件的全貌：
 
-- [kotlin-dsl-samples/samples/hello-kotlin](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/hello-kotlin/build.gradle.kts)
-- [google/iosched/model](https://github.com/google/iosched/blob/main/model/build.gradle.kts)
+- ["kotlin-dsl-samples/samples/hello-kotlin"@Gradle](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/hello-kotlin/build.gradle.kts)
+- ["google/iosched/model"@Google](https://github.com/google/iosched/blob/main/model/build.gradle.kts)
 
 ## Android Gradle Plugin
 
@@ -31,8 +31,8 @@
 
 具体到某个 AGP 的 DSL 参数，可以参考已迁移至 developer.android.com 的新文档中心：
 
-- [Android Gradle plugin API reference](https://developer.android.com/reference/tools/gradle-api)
+- ["Android Gradle plugin API reference"@Android](https://developer.android.com/reference/tools/gradle-api)
 
 之后再结合一些案例来理解一份配置文件的全貌：
 
-- [google/iosched/mobile](https://github.com/google/iosched/blob/main/mobile/build.gradle.kts)
+- ["google/iosched/mobile"@Google](https://github.com/google/iosched/blob/main/mobile/build.gradle.kts)

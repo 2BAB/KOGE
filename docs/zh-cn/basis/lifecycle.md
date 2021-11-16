@@ -21,7 +21,7 @@ Gradle 本体的生命周期其实如上一张图就能看的明白，其中：
 1. ["Interface BuildListener"@Gradle](https://docs.gradle.org/current/javadoc/org/gradle/BuildListener.html)
 2. ["Interface TaskExecutionListener"@Gradle](https://docs.gradle.org/current/javadoc/org/gradle/api/execution/TaskExecutionListener.html)
 3. ["Interface Project"@Gradle](https://docs.gradle.org/current/javadoc/org/gradle/api/Project.html#beforeEvaluate-groovy.lang.Closure-)
-4. [Search afterEvaluate{} on "Triple-T/gradle-play-publisher"](https://github.com/Triple-T/gradle-play-publisher/search?q=afterevaluate)
+4. [Search afterEvaluate{} on "Triple-T/gradle-play-publisher"@AlexSaveau](https://github.com/Triple-T/gradle-play-publisher/search?q=afterevaluate)
 5. ["How to exclude a task in Gradle?"@Brook'sStudio](https://brookbach.com/tech/2020/03/12/gradle-exclude-task-en.html)
 6. [慎重使用 `afterEavaluate{}`](https://discuss.gradle.org/t/is-project-afterevaluate-the-proper-way-for-gradle-plugin-to-dynamically-create-default-tasks/31349)
 
@@ -44,5 +44,6 @@ AGP 其实所谓官方给出的生命周期参考，但从流程上我们可以�
 本节对于理解 Gradle 的一些设计特别重要，我们最后再放出一些高效的小贴士：
 
 - 不要在 Configuration 期做任何带来 IO、CPU 负荷的操作，合理运用各类惰性 API 去注册 Task、解析文件获取参数等；
-- 
+- 不要在 root project 中使用 `subproject{ ... }` 注册大量生命周期回调，影响性能（取而代之的是使用插件，可以把颗粒度做细，可以按需加载，很多时候并不是每个子 Project 都需要一份同样的逻辑）；
+
 

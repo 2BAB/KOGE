@@ -25,18 +25,18 @@
 
 上述的内容基本都可以在 Gradle 的文档中找到：
 
-1. [Configuration cache](https://docs.gradle.org/current/userguide/configuration_cache.html)
-2. [Task Configuration Avoidance](https://docs.gradle.org/current/userguide/task_configuration_avoidance.html#task_configuration_avoidance)
-3. [Developing Parallel Tasks using the Worker API](https://docs.gradle.org/current/userguide/worker_api.html#header)
-4. [Parallel project execution](https://docs.gradle.org/current/userguide/multi_project_configuration_and_execution.html#sec:parallel_execution)
+1. ["Configuration cache"@Gradle](https://docs.gradle.org/current/userguide/configuration_cache.html)
+2. ["Task Configuration Avoidance"@Gradle](https://docs.gradle.org/current/userguide/task_configuration_avoidance.html#task_configuration_avoidance)
+3. ["Developing Parallel Tasks using the Worker API"@Gradle](https://docs.gradle.org/current/userguide/worker_api.html#header)
+4. ["Parallel project execution"@Gradle](https://docs.gradle.org/current/userguide/multi_project_configuration_and_execution.html#sec:parallel_execution)
 
 
 想更进一步去探究每个流程的性能瓶颈，可以使用 `--scan` `--profile` 等参数或者 `gradle-profile` 等工具获取构建过程的详细报告
 
-1. [Improving the Performance of Gradle Builds](https://docs.gradle.org/current/userguide/performance.html)：介绍了深入分析的方法、工具，但对于初学者来说可能投入和收益的比例并不可观。
-2. [Gradle Enterprise Gradle Plugin User Manual](https://docs.gradle.com/enterprise/gradle-plugin/?_ga=2.127298381.1900135053.1636116790-1881714751.1634284859#getting_set_up)
-3. [DIY Gradle build optimization](https://alexsaveau.dev/blog/gradle/performance/diy-gradle-build-optimization)：用一些实际案例介绍如何针对 `--scan` 等工具的结果去做优化。
-4. [Hello, my Gradle builds are slow!](https://medium.com/@liutikas/hello-my-gradle-builds-are-slow-483427e6eb4)：一个 AndroidX 团队使用 `--scan` 分析依赖下载耗时的简单案例（虽然是 Gradle Enterprise 商业版的案例，但这篇文章用到的功能都是免费版就有的）。
+1. ["Improving the Performance of Gradle Builds"@Gradle](https://docs.gradle.org/current/userguide/performance.html)：介绍了深入分析的方法、工具，但对于初学者来说可能投入和收益的比例并不可观。
+2. ["Gradle Enterprise Gradle Plugin User Manual"@Gradle](https://docs.gradle.com/enterprise/gradle-plugin/?_ga=2.127298381.1900135053.1636116790-1881714751.1634284859#getting_set_up)
+3. ["DIY Gradle build optimization"Alex Saveau](https://alexsaveau.dev/blog/gradle/performance/diy-gradle-build-optimization)：用一些实际案例介绍如何针对 `--scan` 等工具的结果去做优化。
+4. ["Hello, my Gradle builds are slow!"@Android](https://medium.com/@liutikas/hello-my-gradle-builds-are-slow-483427e6eb4)：一个 AndroidX 团队使用 `--scan` 分析依赖下载耗时的简单案例（虽然是 Gradle Enterprise 商业版的案例，但这篇文章用到的功能都是免费版就有的）。
 
 
 ## Android 构建优化策略

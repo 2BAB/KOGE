@@ -15,8 +15,8 @@
 
 其中 Base Plugin 是 Gradle 中最基础的插件之一，它最重要的一个部分是定义了 Gradle 中最常见的多个 Lifecycle Task。
 
-- [The Base Plugin](https://docs.gradle.org/current/userguide/base_plugin.html)：了解 Base Plugin 的全貌，包括后面提到的基础 tasks。
-- [Lifecycle tasks](https://docs.gradle.org/current/userguide/more_about_tasks.html#sec:lifecycle_tasks)：了解什么是 Lifecycle tasks。
+- ["The Base Plugin"@Gradle](https://docs.gradle.org/current/userguide/base_plugin.html)：了解 Base Plugin 的全貌，包括后面提到的基础 tasks。
+- ["Lifecycle tasks"@Gradle](https://docs.gradle.org/current/userguide/more_about_tasks.html#sec:lifecycle_tasks)：了解什么是 Lifecycle tasks。
 
 在 Android 开发中经常使用到的 CLI 任务就是基于这些节点进行拓展：
 
@@ -64,7 +64,7 @@ public class JavaBasePlugin implements Plugin<Project> {
 
 同时，它扩展了我们再 Android 开发中也经常见到的 Task、SourceSet、Dependency Configurations：
 
-- [The Java Plugin](https://docs.gradle.org/current/userguide/java_plugin.html)：了解 Java Plugin 的全貌，熟悉它的配置和任务对 Android Gradle Plugin 的理解也会有很多帮助。
+- ["The Java Plugin"@Gradle](https://docs.gradle.org/current/userguide/java_plugin.html)：了解 Java Plugin 的全貌，熟悉它的配置和任务对 Android Gradle Plugin 的理解也会有很多帮助。
 
 <ImageZoom 
   src="/media/regular-tasks-java-plugin-tasks.png" 
@@ -81,7 +81,7 @@ public class JavaBasePlugin implements Plugin<Project> {
 
 如上所述，一个普通的 Android Application 模块其实也包含了多个 Plugin。由于有大量资源文件，以及 BuildTypes 和 Variant 的加入，使得 Task 的数量又翻了几倍。在了解具体的 Task 前，最好先了解下面这张 Android Build WorkFlow 流程图：
 
-- [Build Workflow](http://tools.android.com/tech-docs/new-build-system/build-workflow)
+- ["Build Workflow"@Android](http://tools.android.com/tech-docs/new-build-system/build-workflow)
 
 <ImageZoom 
   src="/media/regular-tasks-android-build-flow.png" 
@@ -153,7 +153,7 @@ $ ./gradlew clean :app:assembleDebug --scan
   :border="false" 
   width="100%"/>
 
-2. 第二种，使用现成的依赖树分析插件，可以导出文字版或者可视化的依赖关系，例如 [gradle-taskinfo](https://gitlab.com/barfuin/gradle-taskinfo#gradle-taskinfo)：
+2. 第二种，使用现成的依赖树分析插件，可以导出文字版或者可视化的依赖关系，例如 ["gradle-taskinfo"barfuin](https://gitlab.com/barfuin/gradle-taskinfo#gradle-taskinfo)：
 
 ``` Shell
 $ ./gradlew tiTree assemble
@@ -171,7 +171,7 @@ $ ./gradlew tiTree assemble
 `--- :sourcesJar                      (org.gradle.api.tasks.bundling.Jar)
 ```
 
-对于每个 Task 执行的操作，通过 Task Name 已经可以了解个大概。（如果想快速过一遍 Task 的实现内容，可以参考这篇基于 AGP 3.0.1 版本的[分析](https://juejin.cn/post/6844903854190886925)）
+对于每个 Task 执行的操作，通过 Task Name 已经可以了解个大概。（如果想快速过一遍 Task 的实现内容，可以参考这篇基于 AGP 3.0.1 版本的["Android Gradle Plugin 主要 Task 分析"@ZYLAB](https://juejin.cn/post/6844903854190886925)）
 
 ## 小结
 

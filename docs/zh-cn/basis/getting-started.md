@@ -2,7 +2,7 @@
 
 ## 什么是 Gradle
 
-第一次接触 Gradle 的朋友可以快速浏览下其百科和官方文档的简洁（1、2），另外 Gradle 和 Android Studio 的关系、为什么 Android 选择了 Gradle 作为构建工具等问题可以参考链接 3 和 4，这样你可以更好地理解为什么要从一开始就接触 CLI 的命令，以及 AGP 扮演的角色。
+第一次接触 Gradle 的朋友可以快速浏览下其百科和官方文档的简介（1、2），另外 Gradle 和 Android Studio 的关系、为什么 Android 选择了 Gradle 作为构建工具等问题可以参考链接 3 和 4，这样你可以更好地理解为什么要从一开始就接触 CLI 的命令，以及 AGP 扮演的角色。
 
 1. ["Gradle"@Wikipedia](https://en.wikipedia.org/wiki/Gradle)
 2. ["What is Gradle?"@Gradle](https://docs.gradle.org/current/userguide/what_is_gradle.html)

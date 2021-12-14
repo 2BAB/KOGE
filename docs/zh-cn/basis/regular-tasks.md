@@ -27,7 +27,7 @@
 - `buildConfiguration`
 - `cleanTask`
 
-剩余的配置不太常用，`BasePluginExtension` 中的 `archiveBaseName` `archiveVersion` 等参数在其他中插件常常被用来当作兜底的产物名称。
+剩余的配置不太常用，`BasePluginExtension` 中的 `archiveBaseName` `archiveVersion` 等参数在其他插件中常常被用来当作兜底的产物名称。
 
 ``` Kotlin
 base {
@@ -62,7 +62,7 @@ public class JavaBasePlugin implements Plugin<Project> {
 }    
 ```
 
-同时，它扩展了我们再 Android 开发中也经常见到的 Task、SourceSet、Dependency Configurations：
+同时，它扩展了我们在 Android 开发中也经常见到的 Task、SourceSet、Dependency Configurations：
 
 - ["The Java Plugin"@Gradle](https://docs.gradle.org/current/userguide/java_plugin.html)：了解 Java Plugin 的全貌，熟悉它的配置和任务对 Android Gradle Plugin 的理解也会有很多帮助。
 

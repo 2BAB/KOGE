@@ -2,7 +2,7 @@
 
 ## 更多脚本 API
 
-编写脚本时，除了配置 Plugin 的 Exetension，有时候还需要与 Gradle 脚本自身的一些 API 打交道，例如 `Project` 对象 `Settings` 对象以及各类挂载在他们身上的快捷接口：
+编写脚本时，除了配置 Plugin 的 Extension，有时候还需要与 Gradle 脚本自身的一些 API 打交道，例如 `Project` 对象 `Settings` 对象以及各类挂载在他们身上的快捷接口：
 
 1. ["The Project API"@Gradle](https://docs.gradle.org/current/userguide/writing_build_scripts.html#sec:project_api)
 2. ["The script API"@Gradle](https://docs.gradle.org/current/userguide/writing_build_scripts.html#sec:the_script_api)

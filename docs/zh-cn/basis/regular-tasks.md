@@ -27,7 +27,7 @@
 - `buildConfiguration`
 - `cleanTask`
 
-剩余的配置不太常用，`BasePluginExtension` 中的 `archiveBaseName` `archiveVersion` 等参数在其他中插件常常被用来当作兜底的产物名称。
+剩余的配置不太常用，`BasePluginExtension` 中的 `archiveBaseName` `archiveVersion` 等参数在其他插件中常常被用来当作兜底的产物名称。
 
 ``` Kotlin
 base {

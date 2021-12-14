@@ -50,7 +50,7 @@ Task 并不是最小的执行单元，其逻辑具体实现的载体称之为 Ta
 3. ["Gradle custom task action order"](https://stackoverflow.com/questions/44296863/gradle-custom-task-action-order)
 
 
-Task Action 会在运行到该 Task 时自动检测和运行带有 `@TaskAction` 注解的方法，但是多个 `@TaskAction` 的执行顺序是“无序的”（上述见第三个链接）。因此有多个
+Task Action 会在运行到该 Task 时自动检测和运行带有 `@TaskAction` 注解的方法，因此有多个，但是多个 `@TaskAction` 的执行顺序是“无序的”（见上述第三个链接）。
 
 第二种有序的 API `doFirst()` / `doLast()` 并不是为了解决上述无序的问题，它主要的使用场景在于：
 

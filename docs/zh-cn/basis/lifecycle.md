@@ -11,7 +11,7 @@ Gradle 本体的生命周期其实如上一张图就能看的明白，其中：
 - 虚线连接的右侧白色模块，是挂载在 `Project` 对象上的生命周期钩子函数，例如你可以通过 `project.afterEvaluate {}` 传入一个闭包触发该 Hook； 
 
 
-官方的文档对三大环节的梳理有些简陋，所以建议在快速浏览文档的基础上，多看看第二批文章：
+官方的文档对三大环节的梳理有些简陋，所以建议在快速浏览文档的基础上，多看看第二篇文章：
 
 1. ["Build Lifecycle"@Gradle](https://docs.gradle.org/current/userguide/build_lifecycle.html)
 2. ["Gradle 103: Build Life Cycle"@Shivam](https://medium.com/@shivam.gosavi340_58315/gradle-103-build-life-cycle-6d1b595d72cc)

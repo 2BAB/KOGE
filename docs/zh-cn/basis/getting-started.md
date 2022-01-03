@@ -18,7 +18,7 @@
 
 你还将在[常规任务](./regular-tasks.md)小节看到其他的一些官方插件。
 
-## Gradle 工程样例
+## Gradle 工程结构样例
 
 最基础的 Gradle 工程可以从 Gradle 官方的 Sample 中找到
 
@@ -35,6 +35,7 @@
 
 1. ["Gradle 102: Gradle Basics"@Shivam](https://medium.com/@shivam.gosavi340_58315/gradle-102-gradle-basics-798db70a6c20)
 2. ["Build Script Basics"@Gradle](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html)
+3. ["Managing Dependencies of JVM Projects"@Gradle](https://docs.gradle.org/current/userguide/dependency_management_for_java_projects.html)
 
 
 ## 从命令行构建您的应用

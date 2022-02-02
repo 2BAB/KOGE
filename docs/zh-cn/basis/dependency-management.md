@@ -1,6 +1,6 @@
 # 依赖管理
 
-在[快速开始](/zh-cn/basis/getting-started)小节中我们以及了解过简单的项目结构和 `build.gradle(.kts)` 文件的作用。本节我们将讨论如何把一个单一的模块和其内部、外部模块进行联系，也即依赖的管理。
+在[快速开始](/zh-cn/basis/getting-started)小节中我们已经了解过简单的项目结构和 `build.gradle(.kts)` 文件的作用。本节我们将讨论如何把一个单一的模块和其内部、外部模块进行联系，也即依赖的管理。
 
 ## 引用远程依赖（经典写法）
 
@@ -173,7 +173,7 @@ dependencies {
 
 ### 引用本地模块（新版写法）
 
-除了标准的冒号引用 `project(":test-library")` 之外，Gradle 最近推出了一种新的模块引入写法——TypeSafe Project Accessor。目前该特性是一个处于预览孵化状态，需要在 `settings.gradle.kts` 中添加如下代码才可开启。
+除了标准的冒号引用 `project(":test-library")` 之外，Gradle 最近推出了一种新的模块引入写法——TypeSafe Project Accessor。目前该特性是一个处于预览孵化状态，需要在 `settings.gradle.kts` 中添加如下代码才可开启：
 
 ``` Kotlin
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")

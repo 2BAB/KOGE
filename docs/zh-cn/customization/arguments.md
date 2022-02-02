@@ -47,9 +47,10 @@ Gradle 的构建环境中有着各种各样的 Options / Arguments / Properties 
 1. ["Declaring variables"@Gradle](https://docs.gradle.org/current/userguide/writing_build_scripts.html#sec:declaring_variables)
 2. ["ext-in-buildscript-can-not-be-recognised-by-gradle-kotlin-dsl"](https://stackoverflow.com/questions/45753733/ext-in-buildscript-can-not-be-recognised-by-gradle-kotlin-dsl)：Gradle Groovy DSL 中我们熟悉的 `ext` 去哪里了？Gradle Kotlin DSL 中的 `extra` 又是什么？
 3. ["ExtraPropertiesExtension"@Gradle](https://docs.gradle.org/4.7/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html)
-4. ["Reference property in Gradle Properties"@Zsolt Boldizsár](https://stackoverflow.com/questions/56363135/reference-property-in-gradle-properties)
-5. ["kotlin-dsl-samples/samples/extra-properties"@Gradle](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/extra-properties/build.gradle.kts)
-6. ["kotlin-dsl-samples/samples/project-properties/"@Gradle](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/project-properties/build.gradle.kts)
+4. ["Set gradle.ext in settings.gradle.kts with Gradle Kotlin DSL"@Tura](https://stackoverflow.com/questions/57603795/set-gradle-ext-in-settings-gradle-kts-with-gradle-kotlin-dsl)：Kotlin 的插件中如何访问 `extra` 字段
+5. ["Reference property in Gradle Properties"@Zsolt Boldizsár](https://stackoverflow.com/questions/56363135/reference-property-in-gradle-properties)
+6. ["kotlin-dsl-samples/samples/extra-properties"@Gradle](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/extra-properties/build.gradle.kts)
+7. ["kotlin-dsl-samples/samples/project-properties/"@Gradle](https://github.com/gradle/kotlin-dsl-samples/blob/master/samples/project-properties/build.gradle.kts)
 
 另外，`buildscript{}` 配合 `ext` 或者 `extra` 时还有一个常见问题：
 

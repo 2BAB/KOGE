@@ -2,7 +2,7 @@
 
 ## KOGE 怎么没有自定义 Plugin？
 
-如[简介](./README.md)所述，KOGE 的初衷仅为“**帮助大家理解脚本、编写脚本，和常见 Gradle 工程化实践**”，这也是受众面最广的一些内容。KOGE 会不断在这个范围内扩充有价值的材料，完善整体大纲。如果你感兴趣往上进阶的内容，可以关注 2BAB 的博客或公众号（详见[简介](./README.md)），以及参考下方的一些进阶学习材料。
+如[简介](./README.md)所述，KOGE 的初衷仅为“**帮助大家理解脚本、编写脚本，和常见 Gradle 工程化实践**”，这也是受众面最广的一些内容。KOGE 会不断在这个范围内扩充有价值的材料，完善整体大纲。
 
 
 ## 进阶学习材料
@@ -21,3 +21,9 @@ Bhavesh Misri](https://www.raywenderlich.com/22198417-gradle-plugin-tutorial-for
     2. [How to write a plugin](https://medium.com/androiddevelopers/gradle-and-agp-build-apis-how-to-write-a-plugin-1695b590e4ec)
     3. [Taking your plugin to the next step!](https://medium.com/androiddevelopers/gradle-and-agp-build-apis-taking-your-plugin-to-the-next-step-95e7bd1cd4c9)
     4. [Gradle and AGP build APIs - MAD Skills - Playlists](https://youtube.com/playlist?list=PLWz5rJ2EKKc8fyNmwKXYvA2CqxMhXqKXX)：其中第一节是 1 分钟的介绍短片，2、3、4 分别对应上述三篇文章，5、6 则为直播问答还有社区小贴士。
+
+## 持续关注
+
+如果你感兴趣 Gradle 和 AGP 相关内容，可以关注 2BAB 的[博客](https://2bab.me/zh/)或公众号（扫码下图）。
+
+![](https://2bab-images.lastmayday.com/blog/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg?imageslim)

@@ -81,9 +81,9 @@ Gradle Project 的 Tasks 最终会构建成有向无环图，针对**手动梳�
 
 ## AGP Variant API
 
-在 7.0 版本之前的 AGP，由于没有明确提供的 API 供第三方开发者使用，想要扩展 AGP 的功能必须查看其具体的 Task 源码实现，再从中获得某个时刻输入输出的拦截点进行操作。
+在 7.0 版本之前的 AGP，由于没有明确提供的 API 供第三方开发者使用，想要扩展 AGP 的功能必须查看其具体的 Task 源码实现，再从中获得某个时刻输入输出的拦截点进行操作。7.0 之后，Android 官方提供了标准的给第三方插件开发者的切入点：
 
-1. ["Extend the Android Gradle plugin"@Android](https://developer.android.com/studio/build/extend-agp)
+1. ["Extend the Android Gradle plugin"@Android](https://developer.android.com/build/extend-agp)
 2. ["android/gradle-recipes"@Android](https://github.com/android/gradle-recipes/tree/agp-7.0)
 3. ["New APIs in the Android Gradle Plugin"@Android](https://medium.com/androiddevelopers/new-apis-in-the-android-gradle-plugin-f5325742e614)
 4. ["新的 Variant API"@2BAB](https://2bab.me/2021/06/17/google-io-21-agp-recap)
@@ -128,4 +128,4 @@ androidComponents {
 ## 小结/扩展/思考
 
 - 针对已有 Task 扩展的场景可以仅使用 `doLast(...)` `doFirst()` + Script Plugin 简单地进行包装；
-- Android 的场景下，自定义 Task 扩展 AGP 的场景，优先考虑 Variant API 提供的方法，没有的情况再按传统的办法去 Hook（看源码，找对应的 Task，找对应的输入输出，写自定义 Task，通过各种手段插入到依赖图中）。
+- Android 的场景下，自定义 Task 扩展 AGP 的场景，优先考虑新 Variant/Artifact API 提供的方法，没有的情况再按传统的办法去 Hook（看源码，找对应的 Task，找对应的输入输出，写自定义 Task，通过各种手段插入到依赖图中）。

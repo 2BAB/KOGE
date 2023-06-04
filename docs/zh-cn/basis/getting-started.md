@@ -18,6 +18,11 @@
 
 你还将在[常规任务](./regular-tasks.md)小节看到其他的一些官方插件。
 
+从 2023 年 5 月起，Android 官方整合所有的 AGP 文档，为其创建了一个新的独立导航和页卡 [https://developer.android.com/build](https://developer.android.com/build)。可一站式查找到从“入门配置”、“库发布”到“扩展功能”的所有公开内容。
+
+![](https://2bab-images.lastmayday.com/202306032220148.png?imageslim)
+
+
 ## Gradle 工程结构样例
 
 最基础的 Gradle 工程可以从 Gradle 官方的 Sample 中找到

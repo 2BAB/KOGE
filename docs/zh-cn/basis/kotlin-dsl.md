@@ -38,15 +38,14 @@ KTS 目前有两种标准：
 
 ## *.gradle.kts
 
-Gradle Kotlin DSL 就是在泛用 KTS 脚本的基础上，进一步约定了脚本的 Context（比如 `Project` 和 `Settings` 对象），并且加入了 DSL 简化配置的特性（各类插件的 Extension）。你可以从 1、2 两篇文档中了解 Gradle Kotlin DSL 的大部分特性；3 是 Android 官方的迁移文档；4 则是 Gradle 官方的一个 dsl samples 仓库；5 是 KTS 中经常使用到的“代理属性”的官方文档。
+Gradle Kotlin DSL 就是在泛用 KTS 脚本的基础上，进一步约定了脚本的 Context（比如 `Project` 和 `Settings` 对象），并且加入了 DSL 简化配置的特性（各类插件的 Extension）。你可以从 1、2 两篇文档中了解 Gradle Kotlin DSL 的大部分特性；3 是 Android 官方的迁移文档；4 则是 Gradle 官方的一个 dsl samples 仓库；5 是 KTS 中经常使用到的“代理属性”的官方文档; 6 是插件开发中存在大量 Groovy 代码情况下，如何与 Kotlin 混合编译。
 
 1. ["Gradle Kotlin DSL Primer"@Gradle](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
 2. ["Migrating build logic from Groovy to Kotlin"@Gradle](https://docs.gradle.org/current/userguide/migrating_from_groovy_to_kotlin_dsl.html)
 3. ["Android：将构建配置从 Groovy 迁移到 KTS"@Android](https://developer.android.com/studio/build/migrate-to-kts)
 4. ["gradle/kotlin-dsl-samples"@Gradle](https://github.com/gradle/kotlin-dsl-samples/tree/master/samples)
 5. ["Delegated properties"@Kotlin](https://kotlinlang.org/docs/delegated-properties.html)
-
-
+6. ["我与 Groovy 不共戴天"@小灵通](https://juejin.cn/post/7084949825866694686/)
 
 ## 小结
 

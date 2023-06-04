@@ -66,6 +66,10 @@ $ ./gradlew clean assembleDebug -q
 
 - [”从命令行构建您的应用“@Google](https://developer.android.com/studio/build/building-cmdline)
 
+## Gradle 世界的术语表
+
+https://github.com/autonomousapps/gradle-glossary
+
 ## 小结
 
 对于 Gradle，最快的上手方式还是下载官方的 Sample 工程，上手跑几个命令测试下，再参照几篇项目结构的说明理顺 `build.gradle(.kts)` `settings.gradle.kts` 等文件的作用，如何组织一个单模块的项目等。

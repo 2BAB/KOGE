@@ -43,8 +43,6 @@
 
 这个部分我仅推荐参考 AGP 官方的文档"[优化构建速度](https://developer.android.com/studio/build/optimize-your-build)"，更新及时收益良好，但注意其更多倾向于 Debug 包的优化策略。
 
-
-
 1. 确保工具已是最新版本
 2. 创建用于开发的 build 变体
 3. 单变体项目同步

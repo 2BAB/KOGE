@@ -1,5 +1,11 @@
 # Kotlin Script (KTS) 和 DSL
 
+2023 年 4 月中，Kotlin Conf 上宣布了这条消息：“Kotlin DSL 现在成为新 Gradle 构建的默认设置”。没错，Kotlin 其实在 2016 就被引入了 Gradle 的构建工具中。并且，历经多年的集成和调优，终于在 2023 年成为所有开发者的默认选项。《KOGE》和[《Android 构建与架构实战》](https://2bab.me/zh/blog/2023-05-14-extend-android-build-zh-unevils/)均使用 Kotlin 作为 Gradle 的脚本、插件编写语言。
+
+![](https://2bab-images.lastmayday.com/kotlin-is-the%20-default-lang-of-gradle-banner.png?imageslim)
+
+（能让三家公司一起发新闻稿，说明这事真的稳。）
+
 本节我们将了解 Kotlin Script 和 DSL 的来龙去脉，从而从源头上理解 `*.gradle.kts`。
 
 ## 泛用型 KTS 脚本
@@ -47,14 +53,15 @@ Gradle Kotlin DSL 就是在泛用 KTS 脚本的基础上，进一步约定了脚
 5. ["Delegated properties"@Kotlin](https://kotlinlang.org/docs/delegated-properties.html)
 6. ["我与 Groovy 不共戴天"@小灵通](https://juejin.cn/post/7084949825866694686/)
 
+
 ## 小结
 
-了解通用性的 Kotlin Script 和 DSL 其实可以给我们的工作带来很多便利，一门语言解决了多个工作需求。
+了解通用性的 Kotlin Script 和 DSL 其实可以给我们的工作带来很多便利，一门语言解决了多个工作需求。而官方的态度虽然没到仅支持 KTS 的地步，但文初所述，Gradle Kotlin DSL 已是三家公司共同推荐的写法。而对于插件的开发，Kotlin 同样也得到了大家的支持：
 
-而官方的态度虽然没到仅支持 KTS 的地步，但 Gradle Kotlin DSL 是目前 Android 官方较为推荐的写法（相较于 Groovy）。
+Android 官方：
 
 > 将来，KTS 会比 Groovy 更适合用于编写 Gradle 脚本，因为采用 Kotlin 编写的代码可读性更高，并且 Kotlin 提供了更好的编译时检查和 IDE 支持。
 
-Gradle 官方文档也推荐使用静态语言进行插件编写：
+Gradle 官方：
 
 - ["Prefer using a statically-typed language to implement a plugin"@Gradle](https://docs.gradle.org/current/userguide/designing_gradle_plugins.html#prefer_using_a_statically_typed_language_to_implement_a_plugin)

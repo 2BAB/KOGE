@@ -31,3 +31,9 @@ Manual is continuously being updated 🚧... Current version number↓
 ![GitHub tag](https://img.shields.io/github/tag/2BAB/KOGE.svg)
 
 If you would like to contribute, please redirect to the [KOGE Github repo](https://github.com/2BAB/KOGE). Any other questions, please drop your message to [xx2bab@gmail.com](mailto:xx2bab@gmail.com).
+
+## Contributors List
+
+<a href="https://github.com/2BAB/KOGE/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=2BAB/KOGE" />
+</a>

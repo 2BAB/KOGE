@@ -2,7 +2,7 @@
 
 2023 年 4 月中，Kotlin Conf 上宣布了这条消息：“Kotlin DSL 现在成为新 Gradle 构建的默认设置”。没错，Kotlin 其实在 2016 就被引入了 Gradle 的构建工具中。并且，历经多年的集成和调优，终于在 2023 年成为所有开发者的默认选项。《KOGE》和[《Android 构建与架构实战》](https://2bab.me/zh/blog/2023-05-14-extend-android-build-zh-unevils/)均使用 Kotlin 作为 Gradle 的脚本、插件编写语言。
 
-![](https://2bab-images.lastmayday.com/kotlin-is-the%20-default-lang-of-gradle-banner.png?imageslim)
+![](../media/kotlin-dsl-kotlin-as-default.png)
 
 （能让三家公司一起发新闻稿，说明这事真的稳。）
 

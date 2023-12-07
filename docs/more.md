@@ -11,7 +11,7 @@ For advanced content on Gradle itself:
 
 1. ["Gradle Goodness"@Mr.Haki](https://blog.mrhaki.com/search/label/Gradle%3AGoodness): If you've ever searched for Gradle-related information, you've likely come across his blog. "Gradle Goodness" covers a wide range of Gradle-related issues, solutions, and practices. However, as Gradle evolves rapidly, solutions from three to five years ago might not be applicable today. Focus on the content published in recent years.
 2. ["Understanding Gradle"@Jendrik Johannes](https://www.youtube.com/channel/UCxACdAdoVVimgPoFwbdHUkQ/videos): Highly recommended video tutorials by a former Gradle employee (who also offers professional consulting services).
-3. ["Gradle Courses / Tutorials"@Tom Gregory](https://tomgregory.com/wp-content/uploads/2021/06/Gradle-task-inputs-outputs-1.png): Offers a range of tutorials, courses, and articles, with even the free content being very well-organized.
+3. ["Gradle Courses / Tutorials"@Tom Gregory](https://gradlehero.com/): Offers a range of tutorials, courses, and articles, with even the free content being very well-organized.
 4. ["Gradle Plugin Tutorial for Android: Getting Started"@Bhavesh Misri](https://www.raywenderlich.com/22198417-gradle-plugin-tutorial-for-android-getting-started#toc-anchor-001): If script plugins don't fully meet your needs (especially when you want to share your work with other teams), consider writing binary plugins. This tutorial comprehensively explains how to start with a Task, progress to script plugins, then to binary plugins within buildSrc, and finally to publishing an independent binary plugin.
 
 ## Advanced AGP Learning Resources

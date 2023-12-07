@@ -14,13 +14,13 @@ Gradle 的构建环境中有着各种各样的 Options / Arguments / Properties 
 6. Environment options
 
 
-- ["CLI Options"@Gradle](https://docs.gradle.org/current/userguide/command_line_interface.html#sec:command_line_debugging)
+["CLI Options"@Gradle](https://docs.gradle.org/current/userguide/command_line_interface.html#sec:command_line_debugging)
 
 快速浏览一遍有个印象后，可结合几个案例加深理解：
 
 1. ["Troubleshooting builds"@Stefan M.](https://medium.com/grandcentrix/how-to-debug-gradle-plugins-with-intellij-eef2ef681a7b)
 2. ["How to debug Gradle Plugins with IntelliJ"@StefanM.](https://medium.com/grandcentrix/how-to-debug-gradle-plugins-with-intellij-eef2ef681a7b)
-3. ["构建指北 #9 Gradle 脚本调试"@2BAB](https://2bab.me/2021/02/14/android-build-script-debug-support)
+3. ["构建指北 #9 Gradle 脚本调试"@2BAB](https://2bab.me/zh/blog/2021-02-14-android-build-script-debug-support/)
 
 这三篇文章主要是调试、性能监控服务相关的文章，注意 Plugin 的调试和 Scripts 的调试虽然步骤一致，但是 Scripts 的调试能力现在还不完善（详见第三个链接）。其他像 `--dry-run` `--refresh-dependencies` `-Dorg.gradle.jvmargs` 也是常用配合调试的利器。
 
@@ -54,7 +54,7 @@ Gradle 的构建环境中有着各种各样的 Options / Arguments / Properties 
 
 另外，`buildscript{}` 配合 `ext` 或者 `extra` 时还有一个常见问题：
 
-- ["构建指北 #5 含 buildscript 的脚本执行顺序"@2BAB](https://2bab.me/2017/06/21/daily-of-agp-buildscript-block-execute-order)
+- ["构建指北 #5 含 buildscript 的脚本执行顺序"@2BAB](https://2bab.me/zh/blog/2017-06-21-daily-of-agp-buildscript-block-execute-order/)
 
 
 ## 小结

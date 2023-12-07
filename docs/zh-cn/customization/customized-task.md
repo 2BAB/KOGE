@@ -86,7 +86,7 @@ Gradle Project 的 Tasks 最终会构建成有向无环图，针对**手动梳�
 1. ["Extend the Android Gradle plugin"@Android](https://developer.android.com/build/extend-agp)
 2. ["android/gradle-recipes"@Android](https://github.com/android/gradle-recipes/tree/agp-7.0)
 3. ["New APIs in the Android Gradle Plugin"@Android](https://medium.com/androiddevelopers/new-apis-in-the-android-gradle-plugin-f5325742e614)
-4. ["新的 Variant API"@2BAB](https://2bab.me/2021/06/17/google-io-21-agp-recap)
+4. ["新的 Variant API"@2BAB](https://2bab.me/zh/blog/2021-06-17-google-io-21-agp-recap/)
 
 
 > AGP 包含插件扩展点，用于控制 build 输入并通过可与标准 build 任务集成的新步骤扩展其功能。旧版 AGP 没有与内部实现明确分开的官方 API。从 7.0 版本开始，AGP 将提供一组稳定的官方 API，值得您信赖。

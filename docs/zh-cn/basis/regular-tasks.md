@@ -1,6 +1,5 @@
 # 常规任务
 
-
 本节我们将了解常规的 Gradle Task 都来自于哪里，它们背后有怎么样的依赖关系。
 
 
@@ -172,6 +171,7 @@ $ ./gradlew tiTree assemble
 ```
 
 对于每个 Task 执行的操作，通过 Task Name 已经可以了解个大概。（如果想快速过一遍 Task 的实现内容，可以参考这篇基于 AGP 3.0.1 版本的["Android Gradle Plugin 主要 Task 分析"@ZYLAB](https://juejin.cn/post/6844903854190886925)）
+
 
 ## 小结
 

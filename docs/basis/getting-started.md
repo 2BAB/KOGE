@@ -5,7 +5,7 @@
 For those new to Gradle, a quick overview of its Wikipedia page and official documentation introduction is recommended. To understand the relationship between Gradle and Android Studio, why Android chose Gradle as its build tool, and the significance of CLI commands and the role of AGP, refer to the following links:
 
 1. ["Gradle"@Wikipedia](https://en.wikipedia.org/wiki/Gradle)
-2. ["What is Gradle?"@Gradle](https://docs.gradle.org/current/userguide/what_is_gradle.html)
+2. ["What is Gradle?"@Gradle](https://docs.gradle.org/current/userguide/userguide.html)
 3. ["What is Gradle in Android Studio?"@GagandeepSingh](https://stackoverflow.com/a/24828666/3614547)
 4. ["Google IO 2013 The New Android SDK Build System"@Google](https://v.youku.com/v_show/id_XNTYwMzY0NDYw.html?spm=a2h1n.8251843.playList.5!4~1!2~3~A&f=19280821&o=1)
 

@@ -10,7 +10,7 @@ For advanced Gradle and Android Gradle Plugin (AGP) skills with Kotlin, refer to
 
 ## Local Development
 
-This repo is now a single-book consumer of `@2bab/minibook-kit`, which owns the shared VitePress theme, config loader, CLI, and deployment workflow. The kit is consumed from a GitHub release tag, not npm.
+This repo is now a single-book consumer of `@2bab/minibook-kit`, which owns the shared VitePress theme, config loader, CLI, and GitHub Pages deployment workflow. The kit is consumed from a GitHub release tag, not npm.
 
 ```sh
 pnpm install
@@ -27,9 +27,4 @@ pnpm preview
 
 ## Deployment
 
-`.github/workflows/deploy.yml` calls the reusable Cloudflare Pages workflow from `2BAB/minibook-kit` at the same release tag used by `package.json`.
-
-Required repository secrets:
-
-- `CLOUDFLARE_ACCOUNT_ID`
-- `CLOUDFLARE_API_TOKEN`
+`.github/workflows/deploy.yml` calls the reusable GitHub Pages workflow from `2BAB/minibook-kit` at the same release tag used by `package.json`.

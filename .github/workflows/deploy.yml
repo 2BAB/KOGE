@@ -8,6 +8,10 @@ on:
 
 jobs:
   deploy:
-    uses: 2BAB/minibook-kit/.github/workflows/deploy-github-pages.yml@v0.1.2
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: 2BAB/minibook-kit/.github/workflows/deploy-github-pages.yml@v0.1.4
     with:
       book: koge

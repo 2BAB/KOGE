@@ -1,0 +1,19 @@
+{
+  "name": "koge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.19.0",
+  "scripts": {
+    "dev": "minibook dev koge",
+    "build": "minibook build koge",
+    "preview": "minibook preview koge",
+    "books:list": "minibook list"
+  },
+  "devDependencies": {
+    "@2bab/minibook-kit": "github:2BAB/minibook-kit#v0.1.0",
+    "vitepress": "1.6.4",
+    "vue": "3.5.38",
+    "wrangler": "4.100.0"
+  }
+}

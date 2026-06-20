@@ -1,8 +1,8 @@
 # KOGE Introduction
 
-<ImageZoom 
-  src="https://raw.githubusercontent.com/2BAB/KOGE/main/koge-book-cover.png" 
-  :border="false" 
+<ImageZoom
+  src="/media/koge-book-cover.png"
+  :border="false"
   width="560"
 />
 
@@ -19,9 +19,9 @@ In terms of the scope for "Essentials", it covers point 1 and a few of point 2 b
 
 For advanced Gradle and Android Gradle Plugin (AGP) skills with Kotlin, please refer to another book authored by El: *[Extending Android Builds](https://eab.2bab.com)*. KOGE is served as a preparatory lesson for this book.
 
-<ImageZoom 
-  src="https://raw.githubusercontent.com/2BAB/KOGE/main/eab-intro.png" 
-  :border="false" 
+<ImageZoom
+  src="/media/eab-intro.png"
+  :border="false"
   width="560"
 />
 

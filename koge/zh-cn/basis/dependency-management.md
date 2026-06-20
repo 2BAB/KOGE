@@ -54,7 +54,7 @@ dependencies {
 3. `testImplementation` 针对本机单元测试（指代了环境和测试方法）。
 4. `androidTestImplementation` 针对 Android 环境的 instrumentment test（指代环境，具体可以是单元或者集成测试等方法）。
 5. `kotlin("stdlib-jdk7", ...)` 为一个便捷方法，其最终实现还是组合出 `org.jetbrains.kotlin:kotlin-stdlib-jdk7:xxx` 的完整坐标：["Kotlin-Gradle"@Kotlin](https://kotlinlang.org/docs/gradle.html#set-dependencies-at-the-top-level)。
-6. `KotlinCompilerVersion.VERSION` 的声明来源于 `buildSrc` （当然也可能是一个独立的项目被 `includeBuild` 进来）请参阅 [buildSrc](/zh-cn/basis/advanced-scripts) 小节。
+6. `KotlinCompilerVersion.VERSION` 的声明来源于 `buildSrc` （当然也可能是一个独立的项目被 `includeBuild` 进来）请参阅 [buildSrc](/zh-cn/customization/advanced-scripts) 小节。
 
 
 ## 引用远程依赖（新版写法）
@@ -185,11 +185,11 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 implementation(projects.testLibrary)
 ```
 
-![dependency-management-usage](../media/dependency-management-usage.png)
+![dependency-management-usage](/media/dependency-management-usage.png)
 
 查看其源码，发现 Gradle 帮我们生成了如下的一个辅助类：
 
-![dependency-management-accessor](../media/dependency-management-accessor.png)
+![dependency-management-accessor](/media/dependency-management-accessor.png)
 
 - ["TypeSafe Project Accessor 官方功能介绍"@Gradle](https://docs.gradle.org/7.0/release-notes.html)
 - ["Using type-safe project dependencies on Gradle"@Igor Escodro](https://proandroiddev.com/using-type-safe-project-dependencies-on-gradle-493ab7337aa)

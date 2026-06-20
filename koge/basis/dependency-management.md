@@ -55,7 +55,7 @@ Key configuration differences include:
 3. `testImplementation` is for local unit testing (environment and testing method implied).
 4. `androidTestImplementation` is for Android environment instrument tests (implies environment, could be unit or integration tests).
 5. `kotlin("stdlib-jdk7", ...)` is a shortcut, ultimately resolving to `org.jetbrains.kotlin:kotlin-stdlib-jdk7:xxx`: ["Kotlin-Gradle"@Kotlin](https://kotlinlang.org/docs/gradle.html#set-dependencies-at-the-top-level).
-6. `KotlinCompilerVersion.VERSION` is from `buildSrc` (or an included independent project): see [buildSrc](/zh-cn/basis/advanced-scripts).
+6. `KotlinCompilerVersion.VERSION` is from `buildSrc` (or an included independent project): see [buildSrc](/zh-cn/customization/advanced-scripts).
 
 ## Incorporating Remote Dependencies (Modern Approach)
 
@@ -184,11 +184,11 @@ This generates accessors for all modules in the project. For example, referencin
 implementation(projects.testLibrary)
 ```
 
-![dependency-management-usage](../media/dependency-management-usage.png)
+![dependency-management-usage](/media/dependency-management-usage.png)
 
 The generated helper class:
 
-![dependency-management-accessor](../media/dependency-management-accessor.png)
+![dependency-management-accessor](/media/dependency-management-accessor.png)
 
 - ["TypeSafe Project Accessor Official Introduction"@Gradle](https://docs.gradle.org/7.0/release-notes.html)
 - ["Using type-safe project dependencies on Gradle"@Igor Escodro](https://proandroiddev.com/using-type-safe-project-dependencies-on-gradle-493ab7337aa)

@@ -32,7 +32,7 @@
 3. ["Building Android Apps Sample"@Gradle](https://docs.gradle.org/current/samples/sample_building_android_apps.html)：Android 的样例是基于 Android 官方的[构建首个应用](https://developer.android.com/training/basics/firstapp)教程编写的，可参照教程内容进行代码阅读。
 
 
-![](../media/getting-started-kotlin-sample.png)
+![](/media/getting-started-kotlin-sample.png)
 
 另外，AndroidStudio 创建新项目的功能目前还仅支持 Gradle Groovy DSL 的项目，想了解如何迁移或者如何编写 Gradle Kotlin DSL 的内容，请参考 [Kotlin Script (KTS) 和 DSL](./kotlin-dsl.md) 小节。
 

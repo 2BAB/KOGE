@@ -2,7 +2,7 @@
 
 ## Understanding the Gradle Lifecycle
 
-![gradle-lifecycle](../media/gradle-lifecycle-main.jpeg)
+![gradle-lifecycle](/media/gradle-lifecycle-main.jpeg)
 
 The lifecycle of Gradle itself can be understood from the diagram above. Key points include:
 

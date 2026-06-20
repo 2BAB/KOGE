@@ -13,7 +13,7 @@ With the recent development of Gradle's lazy APIs, tasks can now be created lazi
 
 While `create()` returns a `Task`, `register()` yields a `TaskProvider`. If you need to access `Task` APIs not available in `TaskProvider`, you can use the `configure()` method:
 
-1. ["Interface TaskProvider<T extends Task>"@Gradle](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/TaskProvider.html)
+1. ["Interface TaskProvider&lt;T extends Task&gt;"@Gradle](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/TaskProvider.html)
 
 Apart from native API creation, it's also essential to know the delegating API creation method, which is more common in `build.gradle.kts` scripts and other script plugins:
 

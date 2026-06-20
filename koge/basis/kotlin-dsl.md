@@ -4,7 +4,7 @@
 
 In April 2023, at the Kotlin Conf, it was announced that "Kotlin DSL is now the default for new Gradle builds." Kotlin was integrated into Gradle's build tools as early as 2016 and has become the default choice for developers in 2023.
 
-![](../media/kotlin-dsl-kotlin-as-default.png)
+![](/media/kotlin-dsl-kotlin-as-default.png)
 
 This section explores the origins and development of Kotlin Script and DSL, providing insights into `*.gradle.kts` files.
 

@@ -2,7 +2,7 @@
 
 ## Why Doesn't KOGE Include Content on Custom Plugins?
 
-As mentioned in the [introduction](./README.md), KOGE's primary goal is to "**help everyone understand scripts, write scripts, and familiarize themselves with common Gradle engineering practices**". This material represents the broadest audience interest and is where beginners often have the most questions. KOGE will continue to expand within this scope, adding valuable material and perfecting the overall outline.
+As mentioned in the [introduction](/), KOGE's primary goal is to "**help everyone understand scripts, write scripts, and familiarize themselves with common Gradle engineering practices**". This material represents the broadest audience interest and is where beginners often have the most questions. KOGE will continue to expand within this scope, adding valuable material and perfecting the overall outline.
 
 
 ## Advanced Gradle Learning Resources

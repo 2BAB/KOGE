@@ -1,0 +1,15 @@
+name: Deploy KOGE
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    uses: 2BAB/minibook-kit/.github/workflows/deploy-cloudflare-pages.yml@v0.1.0
+    with:
+      book: koge
+      cloudflare_project: koge
+    secrets: inherit

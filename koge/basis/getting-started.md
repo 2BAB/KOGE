@@ -30,7 +30,7 @@ The most basic Gradle projects can be found in Gradle's official samples:
 2. ["Building Kotlin Applications Sample"@Gradle](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html): Detailed tutorial for Kotlin examples, listing each file and step created.
 3. ["Building Android Apps Sample"@Gradle](https://docs.gradle.org/current/samples/sample_building_android_apps.html): Android samples are based on Android Official’s [Building Your First App](https://developer.android.com/training/basics/firstapp) tutorial and are suitable for code reading in conjunction with the tutorial.
 
-![](../media/getting-started-kotlin-sample.png)
+![](/media/getting-started-kotlin-sample.png)
 
 Additionally, Android Studio's new project creation functionality currently only supports Gradle Groovy DSL projects. To learn how to migrate or write Gradle Kotlin DSL content, refer to the [Kotlin Script (KTS) and DSL](./kotlin-dsl.md) section.
 

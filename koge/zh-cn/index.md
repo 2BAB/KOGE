@@ -1,8 +1,8 @@
 # KOGE 简介
 
-<ImageZoom 
-  src="https://raw.githubusercontent.com/2BAB/KOGE/main/koge-book-cover.png" 
-  :border="false" 
+<ImageZoom
+  src="/media/koge-book-cover.png"
+  :border="false"
   width="560"
 />
 

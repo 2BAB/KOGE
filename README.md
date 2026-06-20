@@ -2,61 +2,34 @@
 
 ![](./koge-book-cover.png)
 
-Self-study handbook for Kotlin-oriented Gradle Essential.
+KOGE stands for Kotlin-oriented Gradle Essentials, a concise self-study handbook for Gradle and Android build tooling.
 
-Read it in [English](https://koge.2bab.com/#/) or [简体中文](https://koge.2bab.com/#/zh-cn/).
+Read it in [English](https://koge.2bab.com/) or [简体中文](https://koge.2bab.com/zh-cn/).
 
-For advanced Gradle and Android Gradle Plugin (AGP) skills with Kotlin, please refer to my latest book: *[Extending Android Builds](https://eab.2bab.com)*. KOGE is served as a preparatory lesson for this book.
+For advanced Gradle and Android Gradle Plugin (AGP) skills with Kotlin, refer to *[Extending Android Builds](https://eab.2bab.com)*. KOGE is served as a preparatory lesson for that book.
 
-- Basis
-  - Getting started: 
-    - Gradle
-    - Script
-    - Plugin
-    - Root build.gradle(.kts)
-    - Module's build.gradle(.kts)
-    - settings.gradle(.kts)
-    - CLI
-  - Kotlin DSL:
-    - High-order functions and lambdas
-    - Type-safe builders
-    - @DslMarker
-    - Common Kotlin DSL (Common Groovy DSL)
-    - Gradle Kotlin DSL
-  - DSL Configuration:
-    - Java Plugin
-    - Kotlin Plugin
-    - Android Gradle Plugin
-    - Dependencies
-    - 3rd Party Plugins
-  - Regular Tasks:
-    - Common Tasks
-    - Java Tasks
-    - Android Tasks
-  - Lifecycle:
-    - Initialization
-    - Configuration
-    - Execution
-    - Java Plugin Lifecycle
-    - Android Gradle Plugin Lifecycle
+## Local Development
 
-  
-- Customization
-  - Advanced Scripts:
-    - init.gradle(.kts)
-    - Script Plugin
-    - buildSrc
-    - Manage Dependency version
-  - Arguments:
-    - Gradle Flags
-    - CLI Aruguments
-    - gradle.properties
-    - System Properties
-    - Build Time Optimization
-  - Customized Task:
-    - Authoring Task
-    - Get APK / AAR / AAB
-    - Modify Manifest
-  - Performance Optimization:
-    - Upgrade Gradle/AGP/Kotlin frequently
-    - Tricks that work and may not work
+This repo is now a single-book consumer of `@2bab/minibook-kit`, which owns the shared VitePress theme, config loader, CLI, and deployment workflow. The kit is consumed from a GitHub release tag, not npm.
+
+```sh
+pnpm install
+pnpm dev
+pnpm build
+pnpm preview
+```
+
+## Configuration
+
+- `minibook-kit.config.ts`: KOGE owner, social links, theme colors, analytics, and deployment defaults.
+- `koge/book.config.ts`: KOGE title, description, locales, and sidebar.
+- `.vitepress/config.ts` and `.vitepress/theme/index.ts`: thin wrappers that import the shared kit.
+
+## Deployment
+
+`.github/workflows/deploy.yml` calls the reusable Cloudflare Pages workflow from `2BAB/minibook-kit` at the same release tag used by `package.json`.
+
+Required repository secrets:
+
+- `CLOUDFLARE_ACCOUNT_ID`
+- `CLOUDFLARE_API_TOKEN`

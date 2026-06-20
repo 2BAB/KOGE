@@ -2,7 +2,7 @@
 
 ## Gradle 生命周期
 
-![gradle-lifecycle](../../media/gradle-lifecycle-main.jpeg)
+![gradle-lifecycle](/media/gradle-lifecycle-main.jpeg)
 
 Gradle 本体的生命周期其实如上一张图就能看的明白，其中：
 

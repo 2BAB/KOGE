@@ -6,7 +6,7 @@ This section delves into the origins of common Gradle tasks and their underlying
 
 Taking the commonly used `buildSrc` build environment as an example, the contents of a `build.gradle(.kts)` file and the executable tasks don't solely originate from the Gradle Java Plugin. Often, they are a combination of multiple plugins.
 
-![Base Plugin](../media/regular-tasks-buildsrc.png)
+![Base Plugin](/media/regular-tasks-buildsrc.png)
 
 The Base Plugin is one of the most fundamental plugins in Gradle, primarily known for defining several common lifecycle tasks:
 
@@ -77,9 +77,9 @@ A typical Android Application module contains multiple plugins. The inclusion of
 
 - ["Build Workflow"@Android](http://tools.android.com/tech-docs/new-build-system/build-workflow)
 
-!<ImageZoom 
-  src="/media/regular-tasks-android-build-flow.png" 
-  :border="false" 
+<ImageZoom
+  src="/media/regular-tasks-android-build-flow.png"
+  :border="false"
   width="100%"/>
 
 

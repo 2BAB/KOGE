@@ -6,9 +6,14 @@
 ## Commenting this out is preferred by some people, see
 ## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
 node_modules
+.pnpm-store
+.DS_Store
 
 # Book build output
 _book
+.dist
+.vitepress/cache
+.vitepress/dist
 
 # eBook build output
 *.epub

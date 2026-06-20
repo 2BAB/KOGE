@@ -8,6 +8,6 @@ on:
 
 jobs:
   deploy:
-    uses: 2BAB/minibook-kit/.github/workflows/deploy-github-pages.yml@v0.1.1
+    uses: 2BAB/minibook-kit/.github/workflows/deploy-github-pages.yml@v0.1.2
     with:
       book: koge
